@@ -1,0 +1,9 @@
+body {
+  background-image: url("../assests/metro.jpg");
+  background-size: cover;
+}
+
+.card {
+  background-color: rgba(2, 2, 2, 0.541);
+  color: white;
+}
