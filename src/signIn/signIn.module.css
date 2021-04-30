@@ -1,6 +1,7 @@
 body {
   background-image: url("../assests/metro.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card {
