@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import signIn from "./signIn.module.css"
+import  "./signIn.module.css"
 import { Link } from "react-router-dom";
 
 
@@ -12,13 +12,12 @@ let Login = () => {
 
   let submitHandler = (event) => {
     event.preventDefault();
-    console.log(user);
-    };
+    console.log(user); 
+  };
 
   return (
     <React.Fragment>
-      <section className="mt-4">
-        <div className='className {signIn.background}'>
+      <div className="container mt-5">
           <div className="row">
             <div className="col-md-4 m-auto">
               <div className="card">
@@ -49,7 +48,7 @@ let Login = () => {
                         
                       />
                     </div>
-                    <li className="nav-item active">
+                    <li>
                       <Link className="form-group" to="/Product">
                         <button type='submit' className="btn btn-success">login</button>
                       </Link>
@@ -66,8 +65,7 @@ let Login = () => {
             </div>
           </div>
         </div>
-      </section>
-      
+ 
     </React.Fragment>
   );
 };
